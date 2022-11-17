@@ -1,8 +1,6 @@
 import PyPDF2
-import pyttsx3
 from gtts import gTTS
 from io import BytesIO
-import time
 
 def func(value):
     return ''.join(value.splitlines())
